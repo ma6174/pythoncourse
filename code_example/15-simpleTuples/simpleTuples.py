@@ -1,0 +1,26 @@
+# wfp, 6/7
+# simple tuple stuff
+
+my_tuple = 1,'a',3.14 
+print("my_tuple = 1,'a',3.14 ", my_tuple)
+print()
+print("Operations similar to strings")
+print("Concatenation of tuples, note the comma in ('bill',)")
+print("my_tuple + ('bill',) equals: ", my_tuple + ("bill",))
+print()
+print("Repeat")
+print("my_tuple * 3 equals: ", my_tuple * 3)
+print()
+print("Indexing")
+print("1st element is my_tuple[0]: ",my_tuple[0])
+print("last element is my_tuple[-1]: ", my_tuple[-1])
+print()
+print("Slicing")
+print("First two elements are my_tuple[0:2]: ",my_tuple[0:2])
+print("Last two elements are my_tuple[-2:]: ",my_tuple[-2:])
+print()
+print("Length")
+print("Length is len(my_tuple): ",len(my_tuple))
+print()
+print()
+print("Cannot do: slice assignment, append, extend, del")

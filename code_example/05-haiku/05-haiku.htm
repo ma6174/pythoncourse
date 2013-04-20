@@ -1,0 +1,18 @@
+<<header("AIMA Python file: 05-haiku.py")>><pre><font color="cc33cc"># rje, 5/07, example 5</font>
+<font color="cc33cc"># list the words in Windows Haiku</font>
+
+import <a href="http://www.python.org/doc/current/lib/module-os.html">os</a>
+<b style="background-color:ffff00"><a name="haiku">haiku</b> = <i><font color="green">''</font></i>
+for line in file(<i><font color="green">"Haiku.txt"</font></i>):
+    haiku += line
+print haiku
+print <i><font color="green">"\n"</font></i>
+<b style="background-color:ffff00"><a name="words">words</b> = haiku.split()
+<b style="background-color:ffff00"><a name="wordList">wordList</b> = []
+for w in words:
+    w = w.strip(<i><font color="green">' .,;:"!-?'</font></i>)
+    w = w.lower()
+    wordList.append(w)
+wordList.sort()
+for a in wordList:
+    print a</pre><<footer>>
