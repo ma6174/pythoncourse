@@ -18,8 +18,6 @@
 
 2. 你必须实现下面的函数：
 
-<blockquote>
-
 - `get_input_descriptor()`
 
 在这个函数中，你需要不断提示用户去输入文件名直到用户输入的文件能被正常打开，返回这个打开的文件的文件描述符。
@@ -36,21 +34,17 @@
 
 在这个函数中，你需要：
 
-<blockquote>
 - 调用`get_input_descriptor`函数去获取文件描述符
 - 提示将要求平均值的列
 - 调用`get_data_list`函数
 - 调用`average_data`函数
 - 输出最高的6个平均值（选中的列）和最低的6个平均值，输出数据平均值和年月信息。
-</blockquote>
-
-</blockquote>
 
 ### 上交要求
 
-`proj01.py` -- 你的解答源代码（记得包含你的班级，日期，课程号和必要的注释）
+`proj06.py` -- 你的解答源代码（记得包含你的班级，日期，课程号和必要的注释）
 
-1. 请务必使用这样的文件名字，例如：“proj01.py”
+1. 请务必使用这样的文件名字，例如：“proj06.py”
 2. 在你的CSE账户磁盘里面做一次备份（CSE电脑磁盘的H盘）
 3. 你需要使用提交程序上交一份电子版的拷贝，提交程序在这里： [http://www.cse.msu.edu/handin/webclient](http://www.cse.msu.edu/handin/webclient)
 
