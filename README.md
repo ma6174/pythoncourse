@@ -32,7 +32,7 @@ C语言指针也是一大难点，初学者理解起来也比较费劲。这些�
 - proj03 liuzhe0223
 - proj04 tuteng 
 - proj05 timeship
-- proj06 
+- proj06 ma6174
 - proj07 
 - proj08 
 - proj09 
